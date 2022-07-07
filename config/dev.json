@@ -1,0 +1,16 @@
+{
+  "application": {
+    "serviceId": "ms-ruc",
+    "port": 3001
+  },
+  "datasource": {
+    "uri": "mongodb+srv://fescala:YKHFlAuhtCnb2S7X@cluster0.uuwim.mongodb.net/ms-ruc?retryWrites=true&w=majority",
+    "options": {}
+  },
+  "providers": {
+    "ruc": {
+      "url": "http://wsruc.com/Ruc2WS_JSON.php",
+      "token": "n=cXdlcnR5bGFtYXJja19zYUBob3RtYWlsLmNvbXF3ZXJ0eQ=="
+    }
+  }
+}
