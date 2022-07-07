@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "3f614264-9f82-4290-ad34-10d9d6d80129",
+		"name": "ms-ruc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJraWQiOiJHU09vclZiQ0UxdkF1OVFiQVMxSWFaRTBcL3lwTWlHdHNvUlJOeWtUWlpwTT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJiZTg0NTE4Yy04NWJhLTRhMDctOWVjNC00NjlmMGVjYjg3N2EiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy13ZXN0LTIuYW1hem9uYXdzLmNvbVwvdXMtd2VzdC0yX25QazhLTnJrUyIsImNvZ25pdG86dXNlcm5hbWUiOiJiZTg0NTE4Yy04NWJhLTRhMDctOWVjNC00NjlmMGVjYjg3N2EiLCJjdXN0b206dXNlcklkIjoiNWZjN2ZmZDEyZjA2YWMwMDEyODg0MjcyIiwiYXVkIjoiNThtbzRtZm40dmttbjZ2NTR1ZTdmdDZ2NHAiLCJldmVudF9pZCI6ImNlZWIxMTAyLTI0NjYtNGMyMi05NzdkLTNjNGMzYzYyZjIxOCIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNjU1ODE4Mjg2LCJuYW1lIjoiQWRtaW4gQ3VscWkiLCJleHAiOjE2NTU5MTIzNzAsImlhdCI6MTY1NTkwODc3MCwiZW1haWwiOiJhZG1pbkBjdWxxaS5jb20ifQ.ZRjZoGEkOTnrLpy1J0ebpTcfNxcwYeJ-TFbAlUZ_fIkq_3x_y6J5KHeSFQW9vdugXcp2JQK-FXz9-qlImoLVyqEXscc8cBiyoM85e3Dw0SHlDREtzWDWvWNHOEEmgGxEMaFnahJ6GHiOORV4NfaHL1yLDNlVUMgOq7qRq5Ohob7hnqZ7R728ohdkOiMQ3cPjmXgw5h4hLH7CnvE2KyvoYnAFjrQGA7OSqJiJeWfl0Y5jcEXzgpuUfzMJuQcwYdFS_whDx4F4CVz7O55gJ65fgmR6_HQOMsqgK81nHwOyn4XU0XW_YZ33BYtIrNTLELZAhEKBWacD6A9BGvdIZ4fiIA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"type\": 2,\n    \"ruc\": \"20600892470\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/ruc/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"ruc",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/ruc/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"ruc",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

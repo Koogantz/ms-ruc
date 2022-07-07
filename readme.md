@@ -27,3 +27,4 @@ Luego de ejecutarse el despliegue, podrás ver algo como esto:
   ms-ruc:server Listening on port 3001 +0ms
 Connected successfully
 ```
+Para probar los endpoints importar la colleccion de postman [aquí] (https://github.com/Koogantz/ms-ruc/tree/master/postman-collection/ms-ruc.postman_collection.json)
